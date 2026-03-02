@@ -82,7 +82,7 @@ function App() {
       </div>
       <div>
         <label>Sort by:</label>
-        <select onChange={(e) => setSortBy(e.target.value as any)}>
+        <select onChange={handleSortChange}>
           <option value="date">Date</option>
           <option value="priority">Priority</option>
         </select>
